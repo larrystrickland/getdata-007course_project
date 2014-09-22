@@ -17,7 +17,7 @@ An integer that represents the subject who had the phone the measurements were t
 Range 1-30
 
 **columns 3 to 68**
-Column names are descriptive.  Each will use a set of key terms that are provided here.
+Column names are descriptive.  Each will use a set of key terms that are provided here.  All variables have a range -1 to 1. 
 - *gyroscope*: this is a sensor on the phone that generates some of the raw data base on rotation
 - *accelerometer*: this is sensor on teh phone that generates some of the raw data based on linear acceleration
 - *jerk*: refers to the the rate of change of acceleration (linear or rotational)
@@ -28,4 +28,4 @@ Column names are descriptive.  Each will use a set of key terms that are provide
 - *body*: the oringinal measurements are broken into those that are due to acceleration and those due to gravity.  THe body values are seperated from the gravity values.
 - *gravity*: the gravity component of the accerlation.  
 
-More information on how the data was processed can be found in ()
+More information on how the data was processed can be found in [features_info.txt](https://github.com/larrystrickland/getdata-007course_project/blob/master/features_info.txt)

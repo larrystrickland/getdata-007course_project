@@ -15,6 +15,7 @@ Possible values of this variable are:
 **subject**
 An integer that represents the subject who had the phone the measurements were taken
 Range 1-30
+NA (when the data has been grouped by another variable)
 
 **columns 3 to 68**
 Column names are descriptive.  Each will use a set of key terms that are provided here.  All variables have a range -1 to 1. 
